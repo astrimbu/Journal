@@ -1,9 +1,13 @@
 body            { font-family: 'courier new'; background: #313131;
-                  color: #ffffff; }
+                  color: #BABABA; }
 a, h1, h2       { color: #d43f76; }
 h1, h2          { font-family: 'courier new', 'courier new'; margin: 0; }
 h1              { font-size: 1.4em; }
 h2              { font-size: 1.2em; }
+textarea#styled { background: #272727; border: 1px solid #111111; 
+                  color: #BABABA; font-family: 'courier new'; }
+input#styled    { background: #272727; border: 1px solid #111111;
+                  color: #BABABA; font-family: 'courier new'; }
 
 .page           { margin: 2em auto; width: 35em;
                   padding: 0.8em; }
