@@ -4,10 +4,12 @@ a, h1, h2       { color: #d43f76; }
 h1, h2          { font-family: 'courier new', 'courier new'; margin: 0; }
 h1              { font-size: 1.4em; }
 h2              { font-size: 1.2em; }
-textarea#styled { background: #272727; border: 0;
+dd              { margin-bottom: 10px; }
+textarea        { background: #272727; border: 0; padding: 0.3em;
                   color: #BABABA; font-family: 'courier new'; }
-input#styled    { background: #272727; border: 0;
+input           { background: #272727; border: 0; padding: 0.3em;
                   color: #BABABA; font-family: 'courier new'; }
+input#button    { background: #d43f76; color: #fff; padding: 0.3em; }
 
 .page           { margin: 2em auto; width: 35em;
                   padding: 0.8em; }
@@ -18,6 +20,6 @@ input#styled    { background: #272727; border: 0;
 .add-entry dl   { font-weight: bold; }
 .metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
                   margin-bottom: 1em; background: #272727; }
-.flash          { background: #272727; padding: 4.0em; 
-                  text-align: center; }
+.flash          { background: #d43f76; padding: 0.3em; 
+                  text-align: center; color: #fff; }
 .error          { background: #E20000; padding: 0.5em; }
